@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var box = document.querySelector("#color-box");
-  var btn = document.querySelector("#change-color-btn");
+  var box = document.getElementById("color-box");
+  var btn = document.getElementById("change-color-btn");
 
   btn.addEventListener("click", function () {
     var x = getRandomColor();
